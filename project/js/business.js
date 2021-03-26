@@ -24,10 +24,7 @@ p1.textContent=business[i].city;
 card.appendChild(p1);
 document.querySelector("div.cards").appendChild(card); 
 
-/*let p3=document.createElement("p");
-p3.textContent=business[i].zip;
-card.appendChild(p3);
-document.querySelector("div.cards").appendChild(card);*/
+
 
 let p4=document.createElement("p");
 p4.textContent=business[i].phone;
@@ -40,14 +37,10 @@ abc.appendChild(link);
 abc.title="This is Link";
 abc.href=business[i].url;
 abc.target="blank";
-//abc.setAttribute("href",business[i].url);
-//abc.textContent=business[i].url;
+
 card.appendChild(abc);
 
-/*let p5=document.createElement("p");
-p5.textContent=business[i].url;
-card.appendChild(p5);
-document.querySelector("div.cards").appendChild(card); */
+
 
         let image=document.createElement("img");
         image.setAttribute("src", business[i].imageurl);

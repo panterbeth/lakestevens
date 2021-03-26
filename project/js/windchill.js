@@ -3,8 +3,7 @@ function windChill(tempF, speed){
     return wc;
 }
   function doInputOutput(t, s){
-    //let t=parseFloat(document.getElementById("high").innerHTML);
-    //let s=parseFloat(document.getElementById("windspeed").innerHTML);
+    
     if(t<=50&&s>3){
 
     var output=windChill(t,s);
@@ -15,7 +14,6 @@ function windChill(tempF, speed){
 return equal;
 
 
-//document.getElementById("windchill").innerHTML=equal;
 }
 
 
