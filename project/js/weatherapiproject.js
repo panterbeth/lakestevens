@@ -108,8 +108,10 @@ fetch(alabamatestURL)
     //btn.className="hidemebutton";
     btn.innerHTML="Click to Close";
     btn.onclick=function(){
-        p.style.display="none";
+        card2.style.display="none";
     };
+    card2.style.backgroundColor="red";
+    card2.style.color="white";
     /*let btn2=document.createElement("button");
     btn2.innerHTML="Click to Open";
     btn2.onlick=function(){
