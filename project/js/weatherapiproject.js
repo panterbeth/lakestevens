@@ -66,6 +66,8 @@ document.querySelector("table.threeday").appendChild(card);
 //const corpustestURL="https://api.openweathermap.org/data/2.5/onecall?lat=27.8006&lon=-97.3964&appid=d211895bcb1310c1dd13ddc706b3bb98"
 //const alabamatestURL="https://api.openweathermap.org/data/2.5/onecall?lat=32.7504&lon=-86.7503&appid=d211895bcb1310c1dd13ddc706b3bb98"
 //fetch(alabamatestURL)
+//const duluthtestURL="https://api.openweathermap.org/data/2.5/onecall?lat=46.7833&lon=-92.1066&appid=d211895bcb1310c1dd13ddc706b3bb98"
+//fetch(duluthtestURL)
 const lakeURL="https://api.openweathermap.org/data/2.5/onecall?lat=48.0151&lon=-122.0637&appid=d211895bcb1310c1dd13ddc706b3bb98"
 fetch(lakeURL)
 .then(function(response){
