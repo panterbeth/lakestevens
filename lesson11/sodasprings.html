@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Preston Home Page</title>
+  <meta name="description" content="Preston Home Page Assignment WDD 230 BYU-I">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Overpass+Mono:wght@400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link href="css/small.css" rel="stylesheet">
+  <link href="css/medium.css" rel="stylesheet">
+  <link href="css/large.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body >
+  <aside id="pancakes" style="display:block;">
+    
+  </aside>
+  <header>   
+    
+  <img id="logo" alt="sun and rain" src="images/sunandrain.gif">
+  <section class="headings">
+        <h1>Rays of Sun</h1>
+        <div>Your Place for Weather News</div>
+    </section>
+  </header>
+  <nav class="clearfix">
+    <button onclick="toggleMenu()">&#9776; Menu</button>
+    <ul id="primaryNav" class="hide">
+       
+        <li><a href="index.html">Home</a></li>
+        <li><a href="preston.html">Preston</a></li>
+        <li class="active"><a href="#">Soda Springs</a></li>
+        <li><a href="fishhaven.html">Fish Haven</a></li>   
+        <li><a href="stormcenter.html">Storm Center</a></li>
+        <li ><a href="gallery.html">Gallery</a></li>
+        
+
+    </ul>
+</nav>
+  
+  <main>
+    
+    <h2 id="townname">Soda Springs</h2>
+    <div class="herodiv">
+      <figure class="myphoto">
+        <img src="images/soda1200.jpg" alt="reflected mountains in lake" sizes="50vw" 
+        srcset="images/soda500.jpg 500w,
+                images/soda800.jpg 800w,
+                images/soda1100.jpg 1100w">
+       
+    </figure>
+  
+    
+       <section class="weather">
+        <h3>Weather Summary</h3>
+        <p>Currently: <span id="weather"></span> <span id="current"></span>&#176;F </p>
+        <p>High: <span id="high"></span>&#176;F</p>
+        <p>Wind Chill: <span id="windchill"></span></p>
+         <p>Humidity: <span id="humidity"></span></p>
+         <p>Wind Speed: <span id="windspeed"></span>mph</p>
+       </section>
+      </div>
+
+     
+     
+    <section class="mainforecast">
+      <h3 id="fivedayheader">5 Day Forecast</h3> 
+       <div class="forecast"><table class="">
+          <tr class="daysofweek">
+            <th>
+              <span id="dayPlusOne"></span>
+            </th>
+            <th>
+              <span id="dayPlusTwo"></span>
+            </th>
+            <th>
+              <span id="dayPlusThree"></span>
+            </th>
+            <th>
+              <span id="dayPlusFour"></span>
+            </th>
+            <th>
+              <span id="dayPlusFive"></span>
+            </th>
+          </tr>
+           <!-- <tr class="temperature">
+           <th class="temp">
+              <img src="images/forecastimage.svg" alt="sun">
+              72&#176;
+              
+            </th>
+            <th class="temp" id="day2">
+              <img src="images/forecastimage.svg" alt="sun">
+              72&#176;
+            </th>
+            <th class="temp">
+              <img src="images/forecastimage.svg" alt="sun">
+              72&#176;
+            </th>
+            
+            <th class="temp">
+              <img src="images/forecastimage.svg" alt="sun">
+              72&#176;
+            </th>
+            <th >
+              <img src="images/forecastimage.svg" alt="sun">
+              72&#176;
+            </th> 
+          </tr>-->
+        </table></div>
+      </section>
+      <section class="upcomingevent"></section>
+      <div class="content">
+      <img id="geyser" src="images/geyser2.jpg" alt="geyser">
+      <h3 id="article">Delicious Geysers!</h3>
+      <h5>Article by: Bethany Panter</h5>
+      <p>
+        Visitors to Soda Springs were amazed this week at all the preparations and thought that had gone into the Centennial Celebration of our little town. Many were visiting for the first time and had never before seen our amazing natural carbonated springs. They delighted in the concept and opportunity to mix in their chosen flavorings with the carbonated water to create unique and delectable variations of soda. Visitors were also able to see the wonderful natural geyser we all fondly call Old Soda Fountain. This geyser has long been confused with Old Faithful in Yellowstone but the major difference is Old Soda Fountain’s explosive discharge consists of root beer and not pressurized water.  One of the children upon beholding the geyser for the first time exclaimed, “this is the best place ever! Mom can we move here?” Indeed folks, we truly live in the best town on the planet. Go out and enjoy it! </p>
+    </div>
+    <section id="contact">
+      <img class="googlemap" src="images/googlemap.png" alt="map">
+      <div><h4>Rays of Sun</h4>
+      <p>
+        <i class="material-icons">&#xe55f;</i> 2021 West Dr.<br>
+        &#9993; Hometown, WA 92472<br><br>
+      &#9742; 987-654-3210<br>
+      raysofsun.com
+      </p>
+      
+      <img id="mediapic" src="images/media.png" alt="socialmedia"></div>
+      
+    </section>
+
+  </main>
+  <footer>
+    &copy;<span id="currentyear"></span> 
+    | Bethany Panter |<a id="portal-page" href="https://panterbeth.github.io/"> Washington</a> |<a id="openweather" href="https://openweathermap.org/"> Open Weather |</a>
+      <a id="footerlink" href="https://www.byui.edu/online">BYUI Online Learning</a> <br>
+      <span id="currentdate"></span>
+
+    </footer>
+    <script src="js/dateyearcopy.js"></script>
+    <script src="js/toggle.js"></script>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+   <script>WebFont.load({
+    google: {
+      families: [
+      'Overpass Mono',
+      'Fraunces'
+      ]
+    }
+  });</script>
+  <script src="js/windchill.js"></script>
+  <!--<script src="js/weatherapipres.js"></script>-->
+  <script src="js/sodasprings.js"></script>
+    
+</body>
+</html>
