@@ -18,7 +18,7 @@
         "phone": "425-334-0441",
         "url": "https://bellproperties.net/",
         "web":"Bell Properties, Inc.",
-        "imageurl": "https://panterbeth.github.io/lakestevens.github.io/project/images/bell.png"
+        "imageurl": "images/bell.png"
       },
       {
         "name": "Lake Stevens Tax Service",
@@ -50,7 +50,7 @@
         "phone": "425-334-5034",
         "url": "https://contospizza.com/",
         "web":"Contos Pizza",
-        "imageurl": "https://panterbeth.github.io/lakestevens.github.io/project/images/contos.png"
+        "imageurl": "images/contos.png"
       },
       {
         "name": "Francisco's Kitchen & Cantina",
@@ -60,7 +60,7 @@
         "phone": "425-512-8587",
         "url": "https://www.franciscoskitchenandcantina.com/",
         "web":"Francisco's Kitchen and Cantina",
-        "imageurl": "https://panterbeth.github.io/lakestevens.github.io/project/images/franciscos.png"
+        "imageurl": "images/franciscos.png"
       },
       {
         "name": "Farris & Furlan LLC",
@@ -70,7 +70,7 @@
         "phone": "425-626-2207",
         "url": "https://www.farrisandfurlan.com/",
         "web":"Farris & Furlan LLC",
-        "imageurl": "https://panterbeth.github.io/lakestevens.github.io/project/images/f&f.png"
+        "imageurl": "images/f&f.png"
       },
       {
         "name": "Frontier Village Mini Storage",
@@ -80,7 +80,7 @@
         "phone": "425-334-6204",
         "url": "https://www.frontiervillagestorage.com/",
         "web":"Frontier Village Mini Storage",
-        "imageurl": "https://panterbeth.github.io/lakestevens.github.io/project/images/frontierstorage.png"
+        "imageurl": "images/frontierstorage.png"
       }
       
       
