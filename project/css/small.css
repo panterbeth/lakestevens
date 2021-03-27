@@ -91,7 +91,7 @@ h1, h2, h3, h4, h5, h6{
 
 header{
     /*background-color:rgba(249, 166, 32, .4);*/
-   background-color:rgba(168, 213, 226, 0.3);
+   background-color:rgba(168, 213, 226, 0.5);
     padding-bottom: 2rem;
 }
 header h1{
@@ -219,7 +219,8 @@ th { width:30%;}
      
      
      display:block;
-      background: radial-gradient(white,rgba(255, 203, 31, 0.8));
+   /*   background: radial-gradient(white,rgba(255, 203, 31, 0.8));*/
+   background-color: rgba(255, 203, 31, 0.4);
      border: 2px solid #104911;
      padding: 1.5rem;
      box-shadow: 0 0 15px #111;
@@ -489,3 +490,12 @@ padding:1rem;
    #hide-me{
        display:none;
    }
+   h3{
+       border-bottom: #104911 dashed 2px;
+   }
+.cards h3{
+    border-bottom:none;
+}
+.key h3{
+    border-bottom:none;
+}
