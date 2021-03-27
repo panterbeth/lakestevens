@@ -17,33 +17,7 @@
         
     }
 
-/*.towndata {
-	max-width: 600px;
-  margin: auto;
-	
-  
-	display: flex;
-    flex-wrap: wrap;
-    
-}
-.towndata article{
-    display: flex;
-      flex-direction: row;
-      padding:1rem;
-      background-color: #CAE8F7;
-      color:black;
-      
-      border: 2px solid #104911;
-      
-  }
 
-
-.towndata article:nth-child(odd){
-    flex-direction: row-reverse;
-    
-}
-.towndata img{
-    width:55%;*/
    
     header h1{
         font-size:50px;
@@ -95,10 +69,10 @@
         
     }
     #gridview{
-        font-size: 25px;
+        font-size: 28px;
     }
     #listview{
-        font-size: 25px;
+        font-size: 28px;
     }
     .contact-grid{
         display:grid;
@@ -107,17 +81,7 @@
     .google-map{
         align-self:center;
     }
-    /*#gridview{
-        margin-left:800px;
-        margin-top:-90px;
-    margin-bottom:1rem;
     
-}
-        
-    #listview{
-            margin-left:450px;
-            margin-top:-90px;
-            margin-bottom:1rem;}*/
 
             .weather{
                 margin-left:auto;
