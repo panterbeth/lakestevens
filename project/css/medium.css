@@ -69,10 +69,10 @@
         
     }
     #gridview{
-        font-size: 28px;
+        font-size: 10px;
     }
     #listview{
-        font-size: 28px;
+        font-size: 10px;
     }
     .contact-grid{
         display:grid;
