@@ -68,6 +68,8 @@ document.querySelector("table.threeday").appendChild(card);
 //fetch(alabamatestURL)
 //const duluthtestURL="https://api.openweathermap.org/data/2.5/onecall?lat=46.7833&lon=-92.1066&appid=d211895bcb1310c1dd13ddc706b3bb98"
 //fetch(duluthtestURL)
+//const glasgowtestURL="https://api.openweathermap.org/data/2.5/onecall?lat=36.996&lon=-85.912&appid=d211895bcb1310c1dd13ddc706b3bb98"
+//fetch(glasgowtestURL)
 const lakeURL="https://api.openweathermap.org/data/2.5/onecall?lat=48.0151&lon=-122.0637&appid=d211895bcb1310c1dd13ddc706b3bb98"
 fetch(lakeURL)
 .then(function(response){
