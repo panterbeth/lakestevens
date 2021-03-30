@@ -38,7 +38,6 @@ nav button{
 nav{
   
    background-color:rgba(0, 52, 113, 0.8);
-   
    text-align:left; 
 }
 
@@ -88,7 +87,7 @@ footer{
     color:white;
 
     padding: 1rem;
-   /* margin-top: 2rem;*/
+  
 }
 footer a{
     color:white;
@@ -143,9 +142,7 @@ h3{font-size:20px;}
         background-color:rgba(154, 209, 117, 0.2);
         padding: 10px;
         margin-top: 4rem;
-        /*border: 1px solid black;
        
-        border-radius:5px;*/
     }
 
 
@@ -154,9 +151,7 @@ h3{font-size:20px;}
     color:black;
 }
 
-.mainforecast{
-    display:none;
-}
+
 
 
 .myphoto{
@@ -177,8 +172,6 @@ h3{font-size:20px;}
 	box-shadow: 0 0 20px #111;
    opacity: .8;
    border-radius:10px;
-    
-    
     text-align: center;
     width:max-content;
     margin-left:1rem;
@@ -188,8 +181,7 @@ h3{font-size:20px;}
 
 table, th{
     border: 3px solid #104911;
-    border-collapse:collapse;
-    
+    border-collapse:collapse; 
     padding: 10px;
     margin-left:auto;
     margin-right:auto;
@@ -266,8 +258,6 @@ th { width:30%;}
      border-radius: 10px;
      margin:1rem;
      background-color: rgba(168, 213, 226, 0.2);
-    /* background-color:rgba(154, 209, 117, 0.2);
-     background-color:rgba(168, 213, 226, 0.5);*/
     
  }
  
@@ -286,99 +276,13 @@ th { width:30%;}
     
 }
 
-/*form fieldset {
-    margin: 2rem 1rem;
-    border: 3px solid #104911;
-    border-radius: 10px;
-    padding: 1.5rem;
-    
-}
-form{
-    max-width: 400px;
-    
-   
-}
-
-form legend{
-    color: black;
-    margin: 0 1rem;
-    padding: 0 .5rem;
-
-}
-
-form label.top, form div{
-    display: block;
-    padding-top: 1rem;
-    color: black;
-    font-size: .8rem;
-
-}
-
-form label.top input, form label.top select{
-    -webkit-appearance: none;
-    display:block;
-    font-size: 1rem;
-    border: solid 1px #999;
-    border-radius: 5px;
-    padding: .75rem 0;
-    color: #555;
-    width: 100%;
-    max-width: 20rem;
-    background-color: rgba(154, 209, 117, 0.3);
-}
-
-form label.sbs{
-    display: block;
-    padding: .75rem 0;
-    color: #555;
-}
-
-form input.submitBtn{
-    border: none;
-    background-color:#9AD175;
-    color: black;
-    border-radius: 1rem;
-    padding: .75rem 1.5rem;
-    margin: 0 0 2rem 1rem;
-    width: 96%;
-    max-width: 20rem;
-}
-
-/*form label.top input:required{
-    border-left:#F9A620 solid 6px;
-}
-
-form label.top input:required:valid{
-    border-left: #548C2F solid 6px;
-}*/
-/*fieldset{
-    width:500px;
-    display:flex;
-    align-items: top;
-}
-label.field{
-    /*text-align:right;
-    float:right;
-    width:100px;
-    
-    
-    
-}
-.top{
-    float:left;
-    font-weight:900;
-}
-legend{
-    font-size:20px;
-}*/
 
 
- /*#textbox{
-     display:block;
- }*/
+
+
+
  .join-form{
-     /*display:flex;
-    margin:.2rem;*/
+     
      font-size:14px;
      max-width:500px;
      
@@ -434,10 +338,6 @@ form .sbs input{
     padding: 1rem;
 }
 
-
-
-
-
 .join-grid{
      display:grid;
      grid-template-columns: 1fr;
@@ -482,8 +382,9 @@ border-radius:10px;
     display:grid;
     grid-template-columns: 1fr;
     border-radius:10px;
-    /*border:black solid 3px;*/
+    font-size: 16px;
    padding: .8rem;
+   text-align:center;
    
 }
 .direct-main{
@@ -501,17 +402,13 @@ border-radius:10px;
     padding:1rem;  
     
 }
-.cards {
-    font-size: 16px;
-}
+
 .cards h3, p{
     
     margin-bottom:.5rem;
     
 }
-.cards{
-    text-align:center;
-}
+
 
 .cards img{
     display:block; margin-left:auto; margin-right:auto; box-sizing:border-box; max-width:150px;

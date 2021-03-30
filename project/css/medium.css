@@ -83,15 +83,13 @@
     }
     
 
-            .weather{
+     .weather{
                 margin-left:auto;
                 margin-right:auto;
             }
-            .demo-grid{
-                display:flex;
-                
-                
-                align-items: center;
+    .demo-grid{
+     display:flex;            
+     align-items: center;
                 
             }
       
