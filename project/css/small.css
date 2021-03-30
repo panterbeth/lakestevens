@@ -281,7 +281,7 @@ header{
     
 }
 
-form fieldset {
+/*form fieldset {
     margin: 2rem 1rem;
     border: 3px solid #104911;
     border-radius: 10px;
@@ -339,20 +339,91 @@ form input.submitBtn{
     max-width: 20rem;
 }
 
-form label.top input:required{
+/*form label.top input:required{
     border-left:#F9A620 solid 6px;
 }
 
 form label.top input:required:valid{
     border-left: #548C2F solid 6px;
+}*/
+/*fieldset{
+    width:500px;
+    display:flex;
+    align-items: top;
+}
+label.field{
+    /*text-align:right;
+    float:right;
+    width:100px;
+    
+    
+    
+}
+.top{
+    float:left;
+    font-weight:900;
+}
+legend{
+    font-size:20px;
+}*/
+
+
+ /*#textbox{
+     display:block;
+ }*/
+ .join-form{
+     /*display:flex;*/
+    margin:1rem;
+     font-size:15px;
+    
+}
+.join-form{
+    
+    
+   
+    max-width:400px;
+}
+.join-form fieldset label.top{
+    float:right;
+    min-width:150px;
+   margin:.2rem;
+}
+.join-form input{
+    border:none;
+    border-bottom:1px solid #888;
+    padding-left:20px;
+    padding-right:10px;
+    float:right;
+
+}
+
+.join-form legend{
+    text-transform:uppercase;
+}
+ .join-form .top{
+     
+     width:100%;
+ }
+ form input.submitBtn{
+    border: none;
+    background-color:#9AD175;
+    color: black;
+    border-radius: 1rem;
+    padding: .75rem 1rem;
+    margin: 0 0 2rem 1rem;
+    width: 96%;
+    max-width: 20rem;
+}
+form label.sbs{
+    display:block;
+    padding: .75rem 0;
+    color: #555;
 }
 
 
 
- #textbox{
-     display:block;
- }
- .join-grid{
+
+.join-grid{
      display:grid;
      grid-template-columns: 1fr;
  }
