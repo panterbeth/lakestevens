@@ -496,3 +496,6 @@ border-radius:10px;
 .contact-grid{
     display:grid;
 }
+.thanks{
+    text-align: center;
+}
